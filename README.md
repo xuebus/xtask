@@ -1,4 +1,4 @@
 # xtask
-SpringBoot整合Quartz实现定时任务，这里只是一个演示Demo，没有具体的业务。
+SpringBoot整合Quartz实现定时任务（非分布式），这里只是一个演示Demo，没有具体的业务。
 
 项目中定义了3个定时任务，分别是MyTask、MyTask2和MyTask3，这里我们推荐使用MyTask3的方式来定义定时任务，因为这里使用了注入Service并调用Service中的方法的方式。
